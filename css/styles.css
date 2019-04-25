@@ -10,10 +10,31 @@ header h1 {
     margin-top: 20px;
 }
 
+nav li {
+    font-size: 15px;
+}
+
+li a {
+    border: 1px solid;
+    color: #5c433f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-pills>li.active>a {
+    color: #5c433f;
+    background-color: #eeddcd;
+    border: 1px solid  #5c433f;
+}
+
 .nav-pills>li.active>a:hover,
 .product button:hover,
 footer a:hover {
-    background-color: #edf1f4;
+    background-color: #ffff;
     color: #5c433f;
 }
 
@@ -28,4 +49,104 @@ footer a:hover {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fff;
+}
+/****************
+.product {
+    background-color: #eeddcd;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid #ffff;
+    border-radius: 10px;
+}
+*****************/
+.btn {
+    border: 1px solid #5e4541;
+}
+
+footer {
+    background-color: #eeddcd;
+}
+/********************
+.footer_text {
+    color: #5e4541;
+}
+*********************/
+.featured {
+    margin-bottom: 60px;
+}
+
+.product {
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252);
+    
+}
+
+.img_box {
+    margin: 10px 0px;
+}
+
+.product-button {
+    margin-bottom: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid #5c433f;
+}
+
+aside a, .product,footer {
+    background-color: #eeddcd;
+}
+
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+footer a {
+    color: #5c433f;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact_info {
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+footer .fine_print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .centered {
+    float: none;
+    margin: 0 auto;
+    }
+}
+
+nav {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    top: 5px;
+}
+
+.social {
+    text-align: center;
+    font-size: 45px;
+}
+
+.social i {
+    margin: 20px 10px 0px;
+}
+
+aside {
+    margin-bottom: 60px;
 }
